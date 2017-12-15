@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: radial-gradient(circle at top center, #333333 0%, #111111 100%);
+  overflow: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+  font: 300 30px/1 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 250s credits linear infinite;
+}
+
+.movie {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.text {
+  margin-bottom: 50px;
+  font-size: 35px;
+  text-transform: none;
+  line-height: 140%;
+}
+
+.job {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 35px;
+  text-transform: none;
+}
+
+.break {
+  height: 50px;
+}
+
+@keyframes credits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -3800%;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+#logo {
+  max-width: 250px;
+}
